@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Layout Example</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      height: 100vh;
+      margin: 0;
+    }
+
+    header {
+      background-color: #FF0000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    main {
+      display: flex;
+      flex: 1;
+    }
+
+    #frame1 {
+      flex: 1;
+      background-color: #FF0000;
+      padding: 20px;
+    }
+
+    #frame2 {
+      flex: 2;
+      background-color: #00FF00;
+      padding: 20px;
+    }
+
+    #frame3 {
+      flex: 1;
+      background-color: #0000FF;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+     table {
+      border-collapse: collapse;
+      width: 50%;
+      margin: 20px;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Christos K's Website</h1>
+  </header>
+
+  <main>
+    <div id="frame1">
+      <h2>Frame 1</h2> <a href="ckaiafas@purdue.edu">E-mail me</a>
+      <!-- Content for Frame 1 -->
+    </div>
+
+    <div id="frame2">
+      <h2>Frame 2</h2> <a href ="https://www.udacity.com/blog/2021/04/html-for-dummies.html">HTML For Dummies</a> <br> <a href="https://www.purdue.edu/">Purdue</a> <br> <h2>2x3 Table Example</h2>
+
+  <table>
+    <tr>
+      <th>Product</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Laptop, 1000</td>
+      <td>2 laptops, 2000</td>
+      <td>3 laptops, 3000</td>
+    </tr>
+    <tr>
+      <td>64gb ram, Intel</td>
+      <td>128gb ram, AMD</td>
+      <td>360gb ram, The best</td>
+    </tr>
+  </table>
+      <!-- Content for Frame 2 -->
+    </div>
+
+    <div id="frame3">
+      <h2>Frame 3</h2> <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTNS9ZyjR-DsYcTvBq1Jb0nX2xtb_zLwT1aTp6PF56xwHCxsdl8">
+      <!-- Content for Frame 3 -->
+    </div>
+  </main>
+
+  <footer>
+    Last edited: November 28, 2023
+  </footer>
+
+</body>
+
+</html>
+
